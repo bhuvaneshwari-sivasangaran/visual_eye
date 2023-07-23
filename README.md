@@ -1,5 +1,7 @@
 # VisualEye
 
+VisualEye is the application that can help to visualize your csv files based on categorical and numerical data.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.0.
 
 ## Development server
