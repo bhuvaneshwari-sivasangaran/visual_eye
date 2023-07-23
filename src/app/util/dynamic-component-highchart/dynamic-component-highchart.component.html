@@ -1,0 +1,14 @@
+<highcharts-chart [Highcharts]="Highcharts" [options]="chartOptions">
+</highcharts-chart>
+<div class="button-div-category" *ngIf="dataType === 'Categorical'">
+    <button type="button" class="btn" [ngClass]="chartType == 'column' ? 'btn-primary' : 'btn-secondary'"
+     (click)="changeCategoricalChartType('column')">Column</button>
+    <button type="button" class="btn" [ngClass]="chartType == 'pie' ? 'btn-primary' : 'btn-secondary'"
+     (click)="changeCategoricalChartType('pie')">Pie</button>
+</div>
+<div class="button-div-category" *ngIf="dataType === 'Numerical'">
+    <button type="button" class="btn" [ngClass]="chartType == 'histogram' ? 'btn-primary' : 'btn-secondary'"
+     (click)="changeNumericalChartType('histogram')">Histogram</button>
+    <button type="button" class="btn" [ngClass]="chartType == 'line' ? 'btn-primary' : 'btn-secondary'"
+     (click)="changeNumericalChartType('line')">Line</button>
+</div>

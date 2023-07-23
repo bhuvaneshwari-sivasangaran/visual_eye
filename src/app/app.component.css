@@ -1,0 +1,58 @@
+@import url( '/src/assets/variables.css' );
+
+.navbar {
+    background-color: var(--alternate-color-1) !important;
+}
+
+main {
+    min-height: 100vh;
+    background-color: var(--primary-color);
+}
+
+.text-primary {
+    color: var(--primary-color) !important;
+    font-size: 2rem;
+}
+
+.btn-primary, .btn-primary:active {
+    background-color: var(--tertiary-color);
+    color: var(--alternate-color-1);
+    border: 2px solid var(--alternate-color-1);
+}
+
+input[type="file"] {
+    background-color: var(--secondary-color);
+    color: var(--alternate-color-1);
+}
+
+input::file-selector-button {
+    background-color: var(--alternate-color-1) !important;
+    color: var(--primary-color) !important;
+}
+
+.card-title {
+    color: var(--alternate-color-1);
+}
+
+.card-text {
+    color: var(--tertiary-color);
+    font-size: 1.5rem;
+}
+
+.highcharts-container {
+    height:100%;
+    width:100%;
+}
+
+.pad-bottom-05 {
+    margin-bottom: 0.5rem;
+}
+
+.chart-card, .card {
+    border-width: 2px !important;
+    padding: 1rem !important;
+}
+
+.card-body {
+    padding: none !important;
+}
